@@ -9,7 +9,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGLTest.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/UnityTest.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -17,7 +17,7 @@
 
       <div class="test">
 	<h1>テスト環境</h1>
-	<p>ゲーム制作同好会により開発が行われている、インベーダー風シューティングゲーム「無題（仮）」のテスト用サイトです。不具合報告、機能改善、ゲームを面白くするアイデア案、ゲーム名の案を募集しています。投稿は下記のグーグルフォームへお願い致します。</p>
+	<p>ゲーム制作同好会により開発が行われている、インベーダー風シューティングゲーム「無題（仮）」のテスト用サイトです。不具合報告、機能改善、ゲームを面白くするアイデア案、ゲーム名称についての案を募集しています。投稿は下記のグーグルフォームへお願い致します。</p>
       </div>
 
       <div id="unityContainer" style="width: 768px; height: 432px"></div>
@@ -25,13 +25,13 @@
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">第210電算工廠作品　無題（仮）</div>
+        <div class="title">第210在宅工廠　無題（仮）</div>
       </div>
 
 
       <div class="test">
 	<h2>ゲームの概要と操作説明</h2>
-	<p>すべての敵を撃破すればクリアです。クリアまでにかかった時間を競うタイムアタックゲームです（ランキング機能は未実装です）。ゲームオーバーはありません。</p>
+	<p>すべての敵を撃破すればクリアです。クリアまでにかかった時間を競うタイムアタックゲームです（ランキング機能は未実装です/追加開発予定）。ゲームオーバーはありません。</p>
 	<!-- -->
 	<table>
 		<tbody>
